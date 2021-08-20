@@ -1,0 +1,100 @@
+{
+    "name": "magic-snippets",
+    "displayName": "magic-snippets",
+    "publisher": "magic-rui",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/style.code-snippets"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/style.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/style.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/style.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/style.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/utils.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/utils.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/utils.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/utils.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/utils.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/template.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/template.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/template.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/template.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/template.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/main.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/main.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/main.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/main.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/main.code-snippets"
+            }
+        ]
+    }
+}

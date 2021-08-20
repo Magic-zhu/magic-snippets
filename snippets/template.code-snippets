@@ -1,0 +1,31 @@
+{
+    "mg-tp-rc-fcm": {
+        "prefix": "mg-tp-fcm",
+        "body": [
+            "import React from 'react'",
+            "import styles from './index.scss'",
+            "const $1 = () => {",
+            "   return (",
+            "      <div className={styles.wrapper}>",
+            "      </div>",
+            "   )",
+            "}",
+            "export default $1"
+        ],
+        "description": "react simple template / 简易react模板"
+    },
+    "mg-tp-reg-email":{
+        "prefix":"mg-tp-reg-email",
+        "body":[
+            "/\\b[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,6}\\b/g",
+        ],
+        "description": "regExp email / 匹配邮箱正则表达式"
+    },
+    "mg-tp-reg-date":{
+        "prefix":"mg-tp-reg-date",
+        "body":[
+            "^\\d{4}-\\d{1,2}-\\d{1,2}",
+        ],
+        "description": "regExp date xxxx-xx-xx/ 匹配xxxx-xx-xx的日期"
+    }
+}

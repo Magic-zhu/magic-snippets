@@ -1,0 +1,23 @@
+{
+    "mg-ut-IosOrAndroid": {
+        "prefix": "mg-ut-ia",
+        "body": [
+            "if(typeof navigator == 'undefined'){",
+            "    const IosOrAndroid = function(){",
+            "    throw new Error('Is not currently a browser environment')",
+            "    }",
+            "    const u = navigator.userAgent",
+            "    const isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1",
+            "    const isIos = !!u.match(/\\(i[^;]+;( U;)? CPU.+Mac OS X/)",
+            "    if(isIos){",
+            "        return 'ios' ",
+            "    }",
+            "    if(isAndroid){",
+            "        return 'android'",
+            "    }",
+            "    return undefined",
+            "}"
+        ],
+        "description": "IosOrAndroid / 判断当前浏览器环境是苹果还是安卓 主要用于移动端hack"
+    },
+}

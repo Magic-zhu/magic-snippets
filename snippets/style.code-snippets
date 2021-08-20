@@ -1,0 +1,19 @@
+{
+    "mg-css-fcc": {
+        "prefix": "mg-css-fcc",
+        "body": [
+            "display: flex;",
+            "align-items: center;",
+            "justify-content: center;",
+        ],
+        "description": "Flex center / css居中布局"
+    },
+    "mg-css-wh": {
+        "prefix": "mg-css-wh",
+        "body": [
+            "width: $1;",
+            "height: $2;",
+        ],
+        "description": "width height / css宽高"
+    }
+}
