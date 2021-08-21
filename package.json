@@ -94,6 +94,23 @@
             {
                 "language": "vue",
                 "path": "./snippets/main.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react.code-snippets"
             }
         ]
     }

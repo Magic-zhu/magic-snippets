@@ -1,8 +1,9 @@
 {
-    "mg-rc-ue": {
-        "prefix": "mg-rc-ue",
+    "mg-rc-eff": {
+        "prefix": "mg-rc-eff",
         "body": [
+            "useEffect(()=>{$1}$2)"
         ],
-        "description": "react simple template / 简易react模板"
+        "description": "use effect"
     }
 }
