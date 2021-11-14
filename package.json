@@ -3,7 +3,7 @@
     "displayName": "magic-snippets",
     "publisher": "magic-rui",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.22",
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -112,6 +112,7 @@
                 "language": "typescriptreact",
                 "path": "./snippets/react.code-snippets"
             }
+
         ]
     }
 }

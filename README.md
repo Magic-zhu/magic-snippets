@@ -12,16 +12,19 @@ Thousands of snippets
 
 ### 🍭 style
 
-| short-cut  | description                |
-| ---------- | -------------------------- |
-| mg-css-fcc | Flex center / css 居中布局 |
-| mg-css-wh  | width height / css 宽高    |
+| short-cut           | description                |
+| ------------------- | -------------------------- |
+| mg-css-fcc          | Flex center / css 居中布局 |
+| mg-css-wh           | width height / css 宽高    |
+| mg-css-textOverflow | text overflow              |
 
 ### 🛠 util
 
-| short-cut | description                                                         |
-| --------- | ------------------------------------------------------------------- |
-| mg-ut-ia  | IosOrAndroid / 判断当前浏览器环境是苹果还是安卓 主要用于移动端 hack |
+| short-cut   | description                                                                 |
+| ----------- | --------------------------------------------------------------------------- |
+| ut-ia       | IosOrAndroid / 判断当前浏览器环境是苹果还是安卓 主要用于移动端 hack         |
+| ut-leftTime | input timeStamp output day hour min sec / 输入时间戳,返回剩余天，时，分，秒 |
+| ut-genStr   | Generate random string / 生成随机字符串                                     |
 
 ### 🍱 template
 
@@ -33,14 +36,15 @@ Thousands of snippets
 
 ### 📘 react api
 
+<font color='blue'>@ means its a hook</font>
+
+| short-cut | description            |
+| --------- | ---------------------- |
+| @ue       | react hook useEffect   |
+| @us       | react hook useState    |
+| @ucc      | react hook useContext  |
+| @ucb      | react hook useCallback |
+| @urd      | react hook useReducer  |
+| @ur       | react hook useRef      |
+
 ### 📗 vue api
-
-## Known Issues
-
-
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of this extension

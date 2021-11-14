@@ -1,18 +1,4 @@
 {
-  "mg-gen-str": {
-    "prefix": "mg-gen-str",
-    "body": [
-      "const createQxId = (e?:number) =>{",
-      "    e = e || 32;",
-      "    const t = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';",
-      "    const a = t.length;",
-      "    let n = '';",
-      "    for (let i = 0; i < e; i++) n += t.charAt(Math.floor(Math.random() * a));",
-      "    return n",
-      "}",
-    ],
-    "description": "Generate random string / 生成随机字符串"
-  },
   "mg-fo": {
     "prefix": "mg-fo",
     "body": [

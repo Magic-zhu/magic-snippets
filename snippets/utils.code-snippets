@@ -1,6 +1,6 @@
 {
-    "mg-ut-IosOrAndroid": {
-        "prefix": "mg-ut-ia",
+    "ut-IosOrAndroid": {
+        "prefix": "ut-IosOrAndroid",
         "body": [
             "if(typeof navigator == 'undefined'){",
             "    const IosOrAndroid = function(){",
@@ -19,5 +19,40 @@
             "}"
         ],
         "description": "IosOrAndroid / 判断当前浏览器环境是苹果还是安卓 主要用于移动端hack"
+    },
+    "ut-leftTime": {
+        "prefix": "ut-leftTime",
+        "body": [
+            "const leftTimer = (endTimeStamp, unit = 's') => {",
+            "  let timestamp;",
+            "  if (unit === 's') {",
+            "    timestamp = endTimeStamp * 1000;",
+            "  } else {",
+            "    timestamp = endTimeStamp;",
+            "  }",
+            "  const leftTime = timestamp - new Date().getTime();",
+            "  if (leftTime <= 0) return {day:'00',hour:'00',min:'00',sec:'00'};",
+            "  const day = addZero(parseInt((leftTime / 1000 / 60 / 60 / 24).toString()));",
+            "  const hour = addZero(parseInt(((leftTime / 1000 / 60 / 60) % 24).toString()));",
+            "  const min = addZero(parseInt(((leftTime / 1000 / 60) % 60).toString()));",
+            "  const sec = addZero(parseInt(((leftTime / 1000) % 60).toString()));",
+            "  return {day,hour,min,sec};",
+            "};"
+        ],
+        "description": "input timeStamp output day hour min sec / 输入时间戳,返回剩余天，时，分，秒"
+    },
+    "ut-genStr": {
+        "prefix": "ut-genStr",
+        "body": [
+          "const createQxId = (e?:number) =>{",
+          "    e = e || 32;",
+          "    const t = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';",
+          "    const a = t.length;",
+          "    let n = '';",
+          "    for (let i = 0; i < e; i++) n += t.charAt(Math.floor(Math.random() * a));",
+          "    return n",
+          "}",
+        ],
+        "description": "Generate random string / 生成随机字符串"
     },
 }
